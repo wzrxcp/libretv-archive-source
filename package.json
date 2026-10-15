@@ -1,0 +1,12 @@
+{
+  "name": "libretv-archive-source",
+  "version": "1.0.0",
+  "private": true,
+  "description": "把 Internet Archive 的公有领域/开放影片转成苹果 CMS V10 接口，供 LibreTV 作为自定义 API 使用",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
